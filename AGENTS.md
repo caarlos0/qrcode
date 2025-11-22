@@ -1,5 +1,7 @@
 # QRCoder - Development Notes
 
+**IMPORTANT**: Keep this file updated whenever you make changes to the project. Document design decisions, technical choices, and important features.
+
 ## Project Overview
 A clean, no-bullshit static site for generating QR codes. Built with vanilla HTML/CSS/JavaScript.
 
@@ -10,6 +12,8 @@ A clean, no-bullshit static site for generating QR codes. Built with vanilla HTM
 - Clean, modern UI with rounded corners and shadows
 - Responsive design with mobile support
 - Minimal, focused interface - no unnecessary features
+- **Logo**: Code scan icon from https://www.svgrepo.com/svg/525283/code-scan (80x80px, centered above title)
+- **Favicon**: Same icon in SVG format for sharp display
 
 ### Technical Decisions
 - **SVG Generation**: Using `qrcode-generator` library to generate QR codes as SVG instead of canvas/PNG
