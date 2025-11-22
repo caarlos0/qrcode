@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Generator</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <style>
       * {
         margin: 0;
@@ -38,6 +39,15 @@
         margin-bottom: 30px;
         font-size: 28px;
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .logo {
+        width: 40px;
+        height: 40px;
       }
 
       .input-group {
@@ -161,7 +171,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>QR Code Generator</h1>
+      <h1>
+        <img src="logo.svg" alt="QR Code" class="logo" />
+        QR Code Generator
+      </h1>
 
       <div class="input-group">
         <label for="text">Text or URL</label>
